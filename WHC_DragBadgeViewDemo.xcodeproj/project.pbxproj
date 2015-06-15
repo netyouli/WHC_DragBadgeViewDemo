@@ -14,6 +14,8 @@
 		C3E5BB261B2EB0FD008FF419 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E5BB251B2EB0FD008FF419 /* Images.xcassets */; };
 		C3E5BB291B2EB0FD008FF419 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3E5BB271B2EB0FD008FF419 /* LaunchScreen.xib */; };
 		C3E5BB351B2EB0FE008FF419 /* WHC_DragBadgeViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E5BB341B2EB0FE008FF419 /* WHC_DragBadgeViewDemoTests.m */; };
+		C3E5BB411B2EB160008FF419 /* WHC_BadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E5BB401B2EB160008FF419 /* WHC_BadgeView.m */; };
+		C3E5BB441B2EB17A008FF419 /* UIView+WHC_ViewProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E5BB431B2EB17A008FF419 /* UIView+WHC_ViewProperty.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		C3E5BB2E1B2EB0FE008FF419 /* WHC_DragBadgeViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHC_DragBadgeViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E5BB331B2EB0FE008FF419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3E5BB341B2EB0FE008FF419 /* WHC_DragBadgeViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHC_DragBadgeViewDemoTests.m; sourceTree = "<group>"; };
+		C3E5BB3F1B2EB160008FF419 /* WHC_BadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHC_BadgeView.h; sourceTree = "<group>"; };
+		C3E5BB401B2EB160008FF419 /* WHC_BadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHC_BadgeView.m; sourceTree = "<group>"; };
+		C3E5BB421B2EB17A008FF419 /* UIView+WHC_ViewProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WHC_ViewProperty.h"; sourceTree = "<group>"; };
+		C3E5BB431B2EB17A008FF419 /* UIView+WHC_ViewProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WHC_ViewProperty.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 		C3E5BB0C1B2EB0FD008FF419 = {
 			isa = PBXGroup;
 			children = (
+				C3E5BB3E1B2EB160008FF419 /* WHCBadgeView */,
 				C3E5BB171B2EB0FD008FF419 /* WHC_DragBadgeViewDemo */,
 				C3E5BB311B2EB0FE008FF419 /* WHC_DragBadgeViewDemoTests */,
 				C3E5BB161B2EB0FD008FF419 /* Products */,
@@ -117,6 +124,17 @@
 				C3E5BB331B2EB0FE008FF419 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3E5BB3E1B2EB160008FF419 /* WHCBadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				C3E5BB3F1B2EB160008FF419 /* WHC_BadgeView.h */,
+				C3E5BB401B2EB160008FF419 /* WHC_BadgeView.m */,
+				C3E5BB421B2EB17A008FF419 /* UIView+WHC_ViewProperty.h */,
+				C3E5BB431B2EB17A008FF419 /* UIView+WHC_ViewProperty.m */,
+			);
+			path = WHCBadgeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3E5BB211B2EB0FD008FF419 /* ViewController.m in Sources */,
+				C3E5BB411B2EB160008FF419 /* WHC_BadgeView.m in Sources */,
+				C3E5BB441B2EB17A008FF419 /* UIView+WHC_ViewProperty.m in Sources */,
 				C3E5BB1E1B2EB0FD008FF419 /* AppDelegate.m in Sources */,
 				C3E5BB1B1B2EB0FD008FF419 /* main.m in Sources */,
 			);
